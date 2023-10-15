@@ -1,0 +1,67 @@
+
+body {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    font: 16px Arial, sans-serif; 
+    padding: 20px; 
+}
+
+
+.header, .footer {
+    border: 1px solid #000;
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px;
+}
+
+h1, h2 {
+    color: green; 
+    font-variant: small-caps; 
+}
+
+
+.main {
+    width: 66.66%; 
+    padding: 10px; 
+    margin: 10px; 
+    float: left;
+}
+
+.sidebar {
+    width: 33.33%; 
+    padding: 10px; 
+    margin: 10px; 
+    clear: right;
+}
+
+
+img {
+    border: 1px solid #000; 
+}
+
+figcaption {
+    font-weight: bold; 
+    font-variant: small-caps; 
+}
+
+q {
+    font-family: cursive; 
+    font-style: italic; 
+    font-size: 16px; 
+}
+
+
+ul li {
+    list-style: none; 
+    line-height: 1.5; 
+}
+
+ul > li > a {
+    text-decoration: none; 
+    color: #000; 
+}
+
+ul > li > a:hover {
+    color: #FF6600; 
+}
